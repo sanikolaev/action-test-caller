@@ -16,5 +16,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: sanikolaev/action-test@main
         with:
-          #token: ${{ secrets.GITHUB_TOKEN }}
-          token: abc
+          token: ${{ secrets.GITHUB_TOKEN }}
