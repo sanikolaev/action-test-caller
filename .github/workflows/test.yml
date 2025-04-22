@@ -14,6 +14,6 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: manticoresoftware/action-test@main
+      - uses: sanikolaev/action-test@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
