@@ -15,5 +15,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: sanikolaev/action-test@main
-        #with:
+        with:
           #token: ${{ secrets.GITHUB_TOKEN }}
+          token: abc
